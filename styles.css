@@ -1,0 +1,16 @@
+#grid {
+  width: 415px;
+  height: 310px;
+  background-color: black;
+  padding: 20px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+
+h3 {
+  text-align: center;
+}
