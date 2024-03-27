@@ -57,6 +57,7 @@ cardArray.sort(() => 0.5 - Math.random());
 //get grid from HTML by the id of teh div element
 const gridDisplay = document.querySelector("#grid");
 const resultDisplay = document.querySelector("#result");
+
 //array for cards chosen
 let cardsChosen = [];
 let cardsChosenIds = [];
@@ -98,6 +99,7 @@ function checkMatch() {
 
   if (cardsWon.length === cardArray.length / 2) {
     resultDisplay.textContent = "Congratulations! you found them all!";
+    document.querySelector("body").style.backgroundColor = "#60b347";
   }
 }
 //function to flip card
